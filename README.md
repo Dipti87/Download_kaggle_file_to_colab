@@ -1,25 +1,25 @@
 ## Please refer the below process to download a file to colab from kaggle dataset.
 ============= 
 
-#### !pip install kaggle
+> !pip install kaggle
 
 - allows us to upload files into colab \n
 - we'll need to upload the kaggle.json file
 - in kaggle, under accounts, click 'create new API token'
 - upload the kaggle.json file that is automatically downloaded
 
-#### from google.colab import files
-#### files.upload()
+> from google.colab import files
+> files.upload()
 
- ensure its there
+- ensure its there
 
-# !ls -lha kaggle.json
+> !ls -lha kaggle.json
 
- The Kaggle API client expects this file to be in ~/.kaggle,
- so lets move it there.
+ - The Kaggle API client expects this file to be in ~/.kaggle,
+ - so lets move it there.
 
-# !mkdir -p ~/.kaggle
-# !cp kaggle.json ~/.kaggle/
+> !mkdir -p ~/.kaggle
+> !cp kaggle.json ~/.kaggle/
 
  This permissions change avoids a warning on Kaggle tool startup.
 
