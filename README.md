@@ -3,6 +3,8 @@
 
 > !pip install kaggle
 
+> !pip install ipywidgets
+
 - allows us to upload files into colab \n
 - we'll need to upload the kaggle.json file
 - in kaggle, under accounts, click 'create new API token'
