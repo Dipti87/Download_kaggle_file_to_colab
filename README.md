@@ -21,16 +21,16 @@
 > !mkdir -p ~/.kaggle
 > !cp kaggle.json ~/.kaggle/
 
- This permissions change avoids a warning on Kaggle tool startup.
+- This permissions change avoids a warning on Kaggle tool startup.
 
-# !chmod 600 ~/.kaggle/kaggle.json
+> !chmod 600 ~/.kaggle/kaggle.json
 
- lets now download our dataset
+- lets now download our dataset
 
-# !kaggle competitions download -c tgs-salt-identification-challenge 
+> !kaggle competitions download -c tgs-salt-identification-challenge 
 
-and we'll need those training images unzipped
+- and we'll need those training images unzipped
 
-# !ls
-# !unzip train.zip
+> !ls
+> !unzip train.zip
 
