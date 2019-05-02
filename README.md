@@ -2,7 +2,7 @@
 
 # !pip install kaggle
 
- allows us to upload files into colab
+ allows us to upload files into colab /n
  we'll need to upload the kaggle.json file
  in kaggle, under accounts, click 'create new API token'
  upload the kaggle.json file that is automatically downloaded
