@@ -9,6 +9,7 @@
 - upload the kaggle.json file that is automatically downloaded
 
 > from google.colab import files
+
 > files.upload()
 
 - ” ensure its there ”
