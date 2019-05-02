@@ -11,7 +11,7 @@
 > from google.colab import files
 > files.upload()
 
-- ensure its there
+- ” ensure its there ”
 
 > !ls -lha kaggle.json
 
