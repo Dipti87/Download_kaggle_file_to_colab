@@ -1,6 +1,8 @@
- Download_kaggle_file_to_colab
+### Download_kaggle_file_to_colab
 
-# !pip install kaggle
+> Blockquotes
+
+!pip install kaggle
 
 - allows us to upload files into colab \n
 - we'll need to upload the kaggle.json file
