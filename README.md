@@ -3,7 +3,7 @@
 
 > !pip install kaggle
 
-> !pip install ipywidgets
+> import os
 
 - allows us to upload files into colab \n
 - we'll need to upload the kaggle.json file
